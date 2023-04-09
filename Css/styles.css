@@ -426,6 +426,7 @@ footer ul li a:hover {
     color: var(--raisin-black-1);
 }
 
+
 /* ====== Dor other Devices =====*/
 
 /* BREAKPOINTS */
@@ -449,6 +450,14 @@ footer ul li a:hover {
 
     .footer {
         padding: 2rem 3%;
+    }
+    .services-box h4 {
+        font-size: 1.7rem;
+        font-weight: 1.2rem;
+    }
+    .services-box p {
+        font-weight: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -516,6 +525,17 @@ footer ul li a:hover {
     }
     .footer__3 {
         margin: 1rem auto;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 617px){
+    .services-container {
+        grid-template-columns: 1fr;
     }
 }
 
